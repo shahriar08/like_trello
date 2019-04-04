@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: aliceblue;
+    color: rgb(15, 15, 15);
+
+    font-size: 25px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+header{
+    background-color:#9BA4B3;
+    height:85vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-box{
+    position: absolute;
+    width: 1140;
+    top: 20%;
+    left: 15%;
+}
+
+h1{
+    margin:0;
+    color: white;
+    font-size: 240%;
+    font-weight: 550;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-bottom: 20px;
+}
+/*.img-head{
+    margin-right: 10px;
+    float: right;
+    height: "240";
+    width: "240";
+}*/
+
+.btn:link,
+.btn:visited {
+    margin: 5px;
+    display: inline-block;
+    padding: 10PX 30PX;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 150px;
+    transition: background-color 0.2s, border 0.2s color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color:#263238;
+    color: white;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #263238;
+    color: white;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #455a64;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    background-color:#455a64 ;
+    color: white;
+}
+
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #455a64;
+    color: white;
+}
+.logo{
+    height: 80px;
+    width: auto;
+    margin-top: 30px;
+}
+.text-box{
+    float: left;
+    width: 40%; 
+}
+.photo{
+    float: right;
+    width: 60%;
+    padding: 50px;
+    margin-right: 180px;
+    width: 800px;
+  }
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 95%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #263238;
+}
+
+.foo{
+    background-color: #eeeeee;
+    height:15vh;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+/*SignUp*/
+
+
+/*amit*/
+
+
+/*anik fix the error style . Do it ASAP :P and make the signin and signup dynamic like when showing error the reg button goes down if you want I can give you a ss. for your betterment or how my css was you can check style2.css(in reg folder. I hope you can fix it
+I believe in you. 
+
+)*/
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: red; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
